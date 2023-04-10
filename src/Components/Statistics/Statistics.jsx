@@ -44,24 +44,29 @@ const COLORS = [
 
 const Statistics = () => {
   return (
-    <ResponsiveContainer width="100%" height={500}>
-      <PieChart>
-        <Pie
-          dataKey="value"
-          isAnimationActive={false}
-          data={data}
-          cx="50%"
-          cy="50%"
-          outerRadius={130}
-          fill="#8884d8"
-          label={(entry) => `${entry.name}: ${entry.value}`}
-        >
-          {data.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-          ))}
-        </Pie>
-      </PieChart>
-    </ResponsiveContainer>
+    <div className="w-75">
+      <ResponsiveContainer width="100%" height={500}>
+        <PieChart>
+          <Pie
+            dataKey="value"
+            isAnimationActive={false}
+            data={data}
+            cx="50%"
+            cy="50%"
+            outerRadius={130}
+            fill="#8884d8"
+            label={(entry) => `${entry.name}: ${entry.value}`}
+          >
+            {data.map((entry, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
+            ))}
+          </Pie>
+        </PieChart>
+      </ResponsiveContainer>
+    </div>
   );
 };
 

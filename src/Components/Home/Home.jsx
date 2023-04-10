@@ -3,8 +3,7 @@ import person1 from "/person1.png";
 import location from "/Icons/Frame-4.png";
 import salary from "/Icons/Frame.png";
 import Categories from "./Categories";
-import { Link, useLoaderData } from "react-router-dom";
-import JobDetail from "../Details/JobDetail";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [values, setvalues] = useState([]);
@@ -15,15 +14,13 @@ const Home = () => {
       .then((data) => setvalues(data));
   }, []);
 
-  const jobsData = useLoaderData();
+  const [jobsData, setJobsData] = useState([]);
 
-  // const [jobsData, setJobsData] = useState([]);
-
-  // useEffect(() => {
-  //   fetch("job.json")
-  //     .then((res) => res.json())
-  //     .then((data) => setJobsData(data));
-  // }, []);
+  useEffect(() => {
+    fetch("job.json")
+      .then((res) => res.json())
+      .then((data) => setJobsData(data));
+  }, []);
 
   const [showAllJobs, setShowAllJobs] = useState(false);
   const jobsToShow = showAllJobs ? jobsData : jobsData.slice(0, 4);
@@ -117,7 +114,7 @@ const Home = () => {
                 </div>
                 <div>
                   <button className="btn btn-warning mt-4 text-white">
-                    <Link to="/details">View Details</Link>
+                    <Link to={`/details/${job.id}`}>View Details</Link>
                   </button>
                 </div>
               </div>
