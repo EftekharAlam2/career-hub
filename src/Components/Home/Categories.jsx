@@ -3,7 +3,7 @@ import React from "react";
 const Categories = ({ value }) => {
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl bg-lime-100">
+      <div className="card w-96 shadow-xl bg-lime-100">
         <div className="w-25 ms-8 mt-10">
           <img src={value.category_logo} alt="" />
         </div>
