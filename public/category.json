@@ -1,29 +1,29 @@
 [
   {
     "id": "01",
-    "category_logo": "Ash Kethup",
-    "category_name": "Ash Kethup",
-    "job_available": 5
+    "category_logo": "/Icons/accounts.png",
+    "category_name": "Account & Finance",
+    "job_available": "300 Jobs Available"
   },
 
   {
     "id": "02",
-    "category_logo": "Ash Kethup",
-    "category_name": "Ash Kethup",
-    "job_available": 5
+    "category_logo": "/Icons/business.png",
+    "category_name": "Creative Design",
+    "job_available": "100+ Jobs Available   "
   },
 
   {
     "id": "03",
-    "category_logo": "Ash Kethup",
-    "category_name": "Ash Kethup",
-    "job_available": 5
+    "category_logo": "/Icons/social-media.png",
+    "category_name": "Marketing & Sales",
+    "job_available": "150 Jobs Available"
   },
 
   {
     "id": "04",
-    "category_logo": "Ash Kethup",
-    "category_name": "Ash Kethup",
-    "job_available": 5
+    "category_logo": "/Icons/chip.png",
+    "category_name": "Engineering Job",
+    "job_available": "224 Jobs Available"
   }
 ]

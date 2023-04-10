@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import person1 from "/person1.png";
+import Categories from "./Categories";
 
 const HeaderOne = () => {
   const [values, setvalues] = useState([]);
@@ -93,7 +94,7 @@ const HeaderOne = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red-100">
+      <div>
         <div>
           <p className="text-center font-semibold text-4xl">
             Job Category List
@@ -103,10 +104,21 @@ const HeaderOne = () => {
             need. Its your future
           </p>
         </div>
-        <div className="grid gap-4 grid-cols-2 md:grid-cols-4">
-          {/* {values.map((value) => (
-            <Category key={value.id} value={value}></Category>
-          ))} */}
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-4 mt-5 mb-5 ms-2 md:mx-14">
+          {values.map((value) => (
+            <Categories key={value.id} value={value}></Categories>
+          ))}
+        </div>
+      </div>
+      <div className="bg-red-100">
+        <div>
+          <p className="text-center font-semibold text-4xl">
+            Job Category List
+          </p>
+          <p className="text-center mt-5 text-slate-400">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
         </div>
       </div>
     </div>
