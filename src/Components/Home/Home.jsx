@@ -3,6 +3,8 @@ import person1 from "/person1.png";
 import location from "/Icons/Frame-4.png";
 import salary from "/Icons/Frame.png";
 import Categories from "./Categories";
+import { Link, useLoaderData } from "react-router-dom";
+import JobDetail from "../Details/JobDetail";
 
 const Home = () => {
   const [values, setvalues] = useState([]);
@@ -13,13 +15,15 @@ const Home = () => {
       .then((data) => setvalues(data));
   }, []);
 
-  const [jobsData, setJobsData] = useState([]);
+  const jobsData = useLoaderData();
 
-  useEffect(() => {
-    fetch("job.json")
-      .then((res) => res.json())
-      .then((data) => setJobsData(data));
-  }, []);
+  // const [jobsData, setJobsData] = useState([]);
+
+  // useEffect(() => {
+  //   fetch("job.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setJobsData(data));
+  // }, []);
 
   const [showAllJobs, setShowAllJobs] = useState(false);
   const jobsToShow = showAllJobs ? jobsData : jobsData.slice(0, 4);
@@ -78,7 +82,7 @@ const Home = () => {
         </div>
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-5  ms-2 md:mx-96">
           {jobsToShow.map((job) => (
-            <div className="card w-100 shadow-xl">
+            <div key={job.id} className="card w-100 shadow-xl">
               <div className="w-25 ms-8 mt-10">
                 <img src={job.company_logo} alt="" />
               </div>
@@ -87,12 +91,12 @@ const Home = () => {
                 <p className="text-lg text-slate-400">{job.company_name}</p>
                 <div className="flex gap-4">
                   <div>
-                    <button class="btn btn-outline btn-success">
+                    <button className="btn btn-outline btn-success">
                       {job.site}
                     </button>
                   </div>
                   <div>
-                    <button class="btn btn-outline btn-success">
+                    <button className="btn btn-outline btn-success">
                       {job.time}
                     </button>
                   </div>
@@ -113,7 +117,7 @@ const Home = () => {
                 </div>
                 <div>
                   <button className="btn btn-warning mt-4 text-white">
-                    View Details
+                    <Link to="/details">View Details</Link>
                   </button>
                 </div>
               </div>
