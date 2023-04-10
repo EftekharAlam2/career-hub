@@ -1,0 +1,103 @@
+[
+  {
+    "id": "01",
+    "company_logo": "/Logo/google.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google LLC",
+    "site": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "time": "Full Time",
+    "salary": "100K - 150K",
+    "job_describtion": "A software engineer is a professional responsible for designing, developing, and maintaining software systems, applications, and tools. They typically work in teams to create and maintain software that meets specific business or customer needs.",
+    "job_responsibility": "Analyzing user requirements to determine technical requirements and constraints for software development projects. Collaborating with cross-functional teams, including product managers, designers, and other developers. Staying up-to-date with emerging trends and technologies in software development, and applying them to current projects when applicable. Participating in code reviews, and providing feedback to other developers to improve code quality and maintainability.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or related field",
+    "experience": "2-3 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  },
+
+  {
+    "id": "02",
+    "company_logo": "/Logo/netflix.png",
+    "job_title": "Content Creative Manager",
+    "company_name": "Netflix",
+    "site": "Onsite",
+    "location": "California, United States",
+    "time": "Full Time",
+    "salary": "150K - 200K",
+    "job_describtion": "A Content Creative Manager at Netflix is responsible for managing and executing the creative vision for original content across various platforms, including television shows, movies, and documentaries.",
+    "job_responsibility": "Leading and managing a team of writers, editors, and designers to create compelling and engaging content that aligns with the overall vision and brand of Netflix. Providing feedback and guidance to writers, editors, and designers to ensure that the creative direction is aligned with the goals and objectives of the project. Developing and maintaining relationships with key industry stakeholders, including writers, directors, producers, and other content creators. Staying up-to-date with industry trends, best practices, and emerging technologies to ensure that Netflix remains at the forefront of content creation and distribution.",
+    "educational_requirements": "Bachelor's degree in content creation, marketing, or related fields is often required",
+    "experience": "4-5 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  },
+
+  {
+    "id": "03",
+    "company_logo": "/Logo/tesla.png",
+    "job_title": "Autopilot Software Engineer",
+    "company_name": "Tesla",
+    "site": "Onsite",
+    "location": "Palo Alto, California",
+    "time": "Full Time",
+    "salary": "150K - 200K",
+    "job_describtion": "An Autopilot Software Engineer at Tesla is responsible for developing software for Tesla's autonomous driving systems, including the Autopilot and Full Self-Driving capabilities. They work on developing software algorithms that enable the vehicle to perceive its environment, make decisions, and control the vehicle's movement.",
+    "job_responsibility": "Designing and developing software for Tesla's autonomous driving systems, including object detection, path planning, and vehicle control. Collaborating with hardware engineers and other software developers to integrate software with hardware systems. Staying up-to-date with emerging trends and technologies in autonomous driving and software development, and applying them to current projects when applicable. Documenting software design, code, and testing procedures to support knowledge sharing and facilitate collaboration with other teams and stakeholders.",
+    "educational_requirements": "Bachelor's degree in content creation, marketing, or related fields is often required",
+    "experience": "4-5 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  },
+
+  {
+    "id": "04",
+    "company_logo": "/Logo/google.png",
+    "job_title": "Data Scientist",
+    "company_name": "Google",
+    "site": "Onsite",
+    "location": "United States, America",
+    "time": "Full Time",
+    "salary": "150K - 200K",
+    "job_describtion": "A data scientist is a professional who uses data analysis, statistical modeling, and machine learning techniques to derive insights and knowledge from data. They typically work in teams to collect, analyze, and interpret large datasets and communicate findings to stakeholders.",
+    "job_responsibility": "Collecting, cleaning, and processing large and complex data sets using programming languages like Python, R, or SQL. Designing and implementing statistical models and machine learning algorithms to identify patterns and trends in data. Staying up-to-date with emerging trends and technologies in data science, and applying them to current projects when applicable. Continuously monitoring and evaluating the performance of statistical models and machine learning algorithms, and making adjustments as needed.",
+    "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering, or related field",
+    "experience": "4-5 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  },
+
+  {
+    "id": "05",
+    "company_logo": "/Logo/netflix.png",
+    "job_title": "Content Creative Manager",
+    "company_name": "Netflix",
+    "site": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "time": "Half Time",
+    "salary": "50K - 100K",
+    "job_describtion": "A Content Creative Manager at Netflix is responsible for managing and executing the creative vision for original content across various platforms, including television shows, movies, and documentaries.",
+    "job_responsibility": "Leading and managing a team of writers, editors, and designers to create compelling and engaging content that aligns with the overall vision and brand of Netflix. Providing feedback and guidance to writers, editors, and designers to ensure that the creative direction is aligned with the goals and objectives of the project. Developing and maintaining relationships with key industry stakeholders, including writers, directors, producers, and other content creators. Staying up-to-date with industry trends, best practices, and emerging technologies to ensure that Netflix remains at the forefront of content creation and distribution.",
+    "educational_requirements": "Bachelor's degree in content creation, marketing, or related fields is often required",
+    "experience": "1-2 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  },
+
+  {
+    "id": "06",
+    "company_logo": "/Logo/tesla.png",
+    "job_title": "Autopilot Software Engineer",
+    "company_name": "Tesla",
+    "site": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "time": "Full Time",
+    "salary": "100K - 150K",
+    "job_describtion": "An Autopilot Software Engineer at Tesla is responsible for developing software for Tesla's autonomous driving systems, including the Autopilot and Full Self-Driving capabilities. They work on developing software algorithms that enable the vehicle to perceive its environment, make decisions, and control the vehicle's movement.",
+    "job_responsibility": "Designing and developing software for Tesla's autonomous driving systems, including object detection, path planning, and vehicle control. Collaborating with hardware engineers and other software developers to integrate software with hardware systems. Staying up-to-date with emerging trends and technologies in autonomous driving and software development, and applying them to current projects when applicable. Documenting software design, code, and testing procedures to support knowledge sharing and facilitate collaboration with other teams and stakeholders.",
+    "educational_requirements": "Bachelor's degree in content creation, marketing, or related fields is often required",
+    "experience": "3-4 years in this filed",
+    "phone": "01750-00 00 00",
+    "email": "info@gmail.com"
+  }
+]

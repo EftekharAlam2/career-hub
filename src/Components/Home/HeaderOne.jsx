@@ -112,9 +112,7 @@ const HeaderOne = () => {
       </div>
       <div className="bg-red-100">
         <div>
-          <p className="text-center font-semibold text-4xl">
-            Job Category List
-          </p>
+          <p className="text-center font-semibold text-4xl">Featured Jobs</p>
           <p className="text-center mt-5 text-slate-400">
             Explore thousands of job opportunities with all the information you
             need. Its your future
