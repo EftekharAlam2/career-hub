@@ -7,6 +7,7 @@ import title from "/Icons/Frame-1.png";
 import phone from "/Icons/Frame-2.png";
 import email from "/Icons/Frame-3.png";
 import location from "/Icons/Frame-4.png";
+import { addToDb } from "../../utilities/storage";
 
 const JobDetail = () => {
   const { id } = useParams();
@@ -130,7 +131,10 @@ const JobDetail = () => {
                 </div>
               </div>
               <div className="">
-                <button className="btn btn-warning mt-4 text-white px-40">
+                <button
+                  onClick={() => addToDb(job.id)}
+                  className="btn btn-warning mt-4 text-white px-40"
+                >
                   Apply Now
                 </button>
               </div>
