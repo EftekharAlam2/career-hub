@@ -109,7 +109,7 @@ const Home = () => {
                     <div>
                       <img src={salary} alt="" />
                     </div>
-                    <div>{job.salary}</div>
+                    <div>Salary: {job.salary}</div>
                   </div>
                 </div>
                 <div>
